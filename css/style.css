@@ -1,0 +1,111 @@
+* {
+    font-family: 'Ubuntu', sans-serif;
+    letter-spacing: 0.5px;
+}
+
+.menu-option {
+    color: #12486B !important;
+    letter-spacing: 2px;
+}
+
+.menu-option:hover {
+    color: #78D6C6 !important;
+}
+
+.navbar-menu-text {
+    font-size: 20px;
+    font-weight: 600;
+    letter-spacing: 2px;
+    color: #12486B;
+}
+
+.profile-info {
+    padding: 7px 0;
+}
+
+.profile-picture {
+    width: 50px;
+    height: 50px;
+    border-radius: 90%;
+}
+
+.profile-name {
+    align-self: center;
+    margin-left: 10px;
+    margin-bottom: 0;
+}
+
+.title-line {
+    border: solid #78D6C6 4px;
+    border-bottom: none;
+    width: 10%;
+    margin: 5px auto 25px auto;
+}
+
+.home-introduction {
+    background-color: #419197;
+    color: #FFFFFF;
+    margin-top: 0 !important;
+    padding-top: 90px;
+    padding-bottom: 90px;
+}
+
+.home-introduction h1 {
+    color: #F5FCCD;
+}
+
+.home-resume {
+    text-align: center;
+    padding: 0 45px;
+}
+
+.home-resume h3 {
+    color: #419197 !important;
+}
+
+.home-resume p {
+    color: #61677A;
+}
+
+.home-projects h2 {
+    color: #419197 !important;
+}
+
+.home-projects h4 {
+    color: #419197 !important;
+}
+
+.home-projects p {
+    color: #61677A !important;
+}
+
+.project-img {
+    width: 350px;
+    height: 230px;
+    border-radius: 15px;
+    margin: 20px;
+}
+
+.details-btn:hover {
+    background-color: #78D6C6;
+    border-color: #78D6C6;
+}
+
+.home-contact {
+    background-color: #12486B;
+    color: #FFFFFF;
+    margin-top: 0 !important;
+    padding-top: 90px;
+    padding-bottom: 90px;
+}
+
+.home-contact h2 {
+    color: #F5FCCD;
+}
+
+@media (max-width: 576px) { 
+    .project-img {
+        width: 180px;
+        height: 150px;
+    }
+}
